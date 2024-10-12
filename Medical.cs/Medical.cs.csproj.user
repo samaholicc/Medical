@@ -13,8 +13,5 @@
     <Compile Update="SplashForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="UserAccount.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

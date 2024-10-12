@@ -24,5 +24,10 @@ namespace Medical.cs
         {
             this.Close();
         }
+
+        private void UserAdded_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

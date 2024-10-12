@@ -1,4 +1,7 @@
-﻿namespace Medical.cs
+﻿using Org.BouncyCastle.Asn1.Crmf;
+using System.Xml.Linq;
+
+namespace Medical.cs
 {
     partial class AdminSettings
     {
@@ -47,6 +50,8 @@
             comboBox1 = new ComboBox();
             label7 = new Label();
             IdtextBox = new TextBox();
+            label8 = new Label();
+            label9 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -214,6 +219,25 @@
             IdtextBox.Size = new Size(292, 23);
             IdtextBox.TabIndex = 19;
             // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Location = new Point(0, 0);
+            label8.Name = "label8";
+            label8.Size = new Size(40, 15);
+            label8.TabIndex = 20;
+            label8.Text = "label8";
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(77, 353);
+            label9.Name = "label9";
+            label9.Size = new Size(40, 15);
+            label9.TabIndex = 21;
+            label9.Text = "label9";
+            label9.Click += label9_Click;
+            // 
             // AdminSettings
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -221,6 +245,8 @@
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(800, 454);
+            Controls.Add(label9);
+            Controls.Add(label8);
             Controls.Add(IdtextBox);
             Controls.Add(label7);
             Controls.Add(comboBox1);
@@ -272,5 +298,7 @@
         private ComboBox comboBox1;
         private Label label7;
         private TextBox IdtextBox;
+        private Label label8;
+        private Label label9;
     }
 }

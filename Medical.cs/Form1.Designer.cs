@@ -73,6 +73,7 @@
             Name = "UserAdded";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Message";
+            Load += UserAdded_Load;
             ResumeLayout(false);
             PerformLayout();
         }

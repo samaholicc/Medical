@@ -26,13 +26,18 @@ namespace Medical.cs
                 this.Hide();
             }
         }
-             private void LaunchLoginForm()
+        private void LaunchLoginForm()
         {
             LoginForm LoginForm = new LoginForm();
             LoginForm.Show();
         }
+
+        private void SplashForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
-        
-    }
+
+}
 

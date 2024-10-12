@@ -36,7 +36,7 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(210, 299);
+            progressBar1.Location = new Point(196, 287);
             progressBar1.Name = "progressBar1";
             progressBar1.Size = new Size(362, 25);
             progressBar1.TabIndex = 0;
@@ -53,13 +53,14 @@
             BackColor = Color.Chocolate;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(800, 440);
+            ClientSize = new Size(796, 418);
             Controls.Add(progressBar1);
             DoubleBuffered = true;
             FormBorderStyle = FormBorderStyle.None;
             Name = "SplashForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
+            Load += SplashForm_Load;
             ResumeLayout(false);
         }
 
